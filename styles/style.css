@@ -1,0 +1,55 @@
+:root {
+  --white: #f0f0f0;
+  --black: #101010;
+  --primary-color: #ff0000;
+  --secondary-color: #008000;
+  --tertiary-color: #0000ff;
+  --quaternary-color: #ffff00;
+  --font-2xl: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --font-xl: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --font-lg: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --font-base: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --font-sm: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --font-xs: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --margin-x-padding-2xl: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --margin-x-padding-xl: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --margin-x-padding-lg: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --margin-x-padding-base: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --margin-x-padding-sm: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --margin-x-padding-xs: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --gap-2xl: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --gap-xl: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --gap-lg: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --gap-base: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --gap-sm: clamp(1rem, calc(1rem + 1vw), 100rem);
+  --gap-xs: clamp(1rem, calc(1rem + 1vw), 100rem);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* ------------------------------ > Reuseable Css Styles < ------------------------------ */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+section {
+  margin-top: clamp(5rem, calc(3rem + 7vw), 100rem);
+}
